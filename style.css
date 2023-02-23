@@ -1,9 +1,12 @@
+
+
+
 :root  {
-    --color-first-box: #00234c;
-    --color-second-box: #014092;
-    --color-third-box: #0149a8;
-    --color-four-box: #0252bb;
-    --color-five-box: #005ad0;
+    --color-first-box: #4c2700;
+    --color-second-box: #6e9201;
+    --color-third-box: #28a801;
+    --color-four-box: #02bb7d;
+    --color-five-box: #a600d0;
 
 }
 
@@ -32,19 +35,19 @@
 }
 
 .caja2{
-    background-color: #014092;
+    background-color: var(--color-second-box);
 }
 
 .caja3{
-    background-color: #0149a8;
+    background-color: var(--color-third-box);
 }
 
 .caja4{
-    background-color: #0252bb;
+    background-color: var(--color-four-box);
 }
 
 .caja5{
-    background-color: #005ad0;
+    background-color: var(--color-five-box);
 }
 
 .caja1, .caja2, .caja3, .caja4, .caja5 {
